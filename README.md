@@ -11,7 +11,7 @@ netsh trace start capture=yes tracefile=c:\nettrace-boot.etl persistent=yes maxs
 netsh trace stop
 ```
 
-Netsh outputs a .etl file; to analyze the trace in Wireshark, the .etl file will need to be converted to a .cap file. The tool etl2pcapng  will generate a .cap file from an .etl file.
+Netsh outputs a .etl file; to analyze the trace in Wireshark, the .etl file will need to be converted to a .cap file. The tool etl2pcapng will generate a .cap file from an .etl file.
 
 More information and prebuilt binaries are available here:
 https://github.com/microsoft/etl2pcapng
